@@ -15,6 +15,7 @@ import ProTypesAndDefaultProps from "./proTypesAndDefaultProps/App";
 import Autocomplete from "./Autocomplete";
 import CreateCustomComponents from "./01_CreateCustomComponents/App";
 import ManageStatewithHooks from "./02_ManageStatewithHooksuseState/App/App";
+import ManageStatewithReducerHooks from "./03_ManageStatewithReducerHooks/App/App";
 
 const App = () => {
   return (
@@ -30,7 +31,8 @@ const App = () => {
       {/*<ProTypesAndDefaultProps />*/}
       {/*<Autocomplete />*/}
       {/*<CreateCustomComponents />*/}
-      <ManageStatewithHooks />
+      {/*<ManageStatewithHooks />*/}
+      <ManageStatewithReducerHooks />
     </div>
   );
 };
