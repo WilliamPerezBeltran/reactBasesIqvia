@@ -1,7 +1,7 @@
 import React from "react";
-import { useState, useCallback } from "react";
-import axios from "axios";
-import { debounce } from "lodash";
+// import { useState, useCallback } from "react";
+// import axios from "axios";
+// import { debounce } from "lodash";
 // import { debounce } from "lodash";
 import UseCallbackComponent from "./useCallback/Main";
 import UseEffectComponent from "./useEffect/UseEffectComponentUsoBasico";
@@ -14,6 +14,7 @@ import MainSolutionUseContext from "./useContext/MainSolution";
 import ProTypesAndDefaultProps from "./proTypesAndDefaultProps/App";
 import Autocomplete from "./Autocomplete";
 import CreateCustomComponents from "./01_CreateCustomComponents/App";
+import ManageStatewithHooks from "./02_ManageStatewithHooksuseState/App/App";
 
 const App = () => {
   return (
@@ -28,7 +29,8 @@ const App = () => {
       {/*<MainSolutionUseContext />*/}
       {/*<ProTypesAndDefaultProps />*/}
       {/*<Autocomplete />*/}
-      <CreateCustomComponents />
+      {/*<CreateCustomComponents />*/}
+      <ManageStatewithHooks />
     </div>
   );
 };

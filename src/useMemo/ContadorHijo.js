@@ -1,5 +1,5 @@
 import React from "react";
-import { memo, useCallback, useEffect, useMemo } from "react";
+import { memo, useMemo } from "react";
 
 const ContadorHijo = ({ contador, suma, resta }) => {
   // let superNumero = 0

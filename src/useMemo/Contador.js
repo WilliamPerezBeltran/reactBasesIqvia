@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback } from "react";
 import ContadorHijo from "./ContadorHijo";
 
 const Contador = ({ getDoble }) => {
