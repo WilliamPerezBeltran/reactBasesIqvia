@@ -13,6 +13,7 @@ import MainProblemUseContext from "./useContext/MainProblem";
 import MainSolutionUseContext from "./useContext/MainSolution";
 import ProTypesAndDefaultProps from "./proTypesAndDefaultProps/App";
 import Autocomplete from "./Autocomplete";
+import CreateCustomComponents from "./01_CreateCustomComponents/App";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       {/*<MainProblemUseContext />*/}
       {/*<MainSolutionUseContext />*/}
       {/*<ProTypesAndDefaultProps />*/}
-      <Autocomplete />
+      {/*<Autocomplete />*/}
+      <CreateCustomComponents />
     </div>
   );
 };
