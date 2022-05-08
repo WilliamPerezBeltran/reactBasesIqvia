@@ -16,6 +16,7 @@ import Autocomplete from "./Autocomplete";
 import CreateCustomComponents from "./01_CreateCustomComponents/App";
 import ManageStatewithHooks from "./02_ManageStatewithHooksuseState/App/App";
 import ShareStatewithContext from "./04_ShareStateAcrossReactComponentswithContext//App";
+import RoutingWithReactRouter from "./05_HandleRoutingWithReactRouter/App";
 
 const App = () => {
   return (
@@ -33,7 +34,8 @@ const App = () => {
       {/*<CreateCustomComponents />*/}
       {/*<ManageStatewithHooks />*/}
       {/*<ManageStatewithReducerHooks />*/}
-      <ShareStatewithContext />
+      {/*<ShareStatewithContext />*/}
+      <RoutingWithReactRouter />
     </div>
   );
 };
