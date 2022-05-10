@@ -4,4 +4,3 @@ En muchas ocasiones, cuando queremos pasar una función definida en un component
 
 A través del uso del hook useCallback vamos a poder solucionar este problema de manera sencilla.
 
-¿Hablamos? Hemos creado un grupo de Slack para poder compartir experiencias como desarrolladores. ¡Te esperamos!
