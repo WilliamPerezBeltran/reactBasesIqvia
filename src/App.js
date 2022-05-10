@@ -17,6 +17,7 @@ import CreateCustomComponents from "./01_CreateCustomComponents/App";
 import ManageStatewithHooks from "./02_ManageStatewithHooksuseState/App/App";
 import ShareStatewithContext from "./04_ShareStateAcrossReactComponentswithContext//App";
 import RoutingWithReactRouter from "./05_HandleRoutingWithReactRouter/App";
+import MemoUseMemoUseCallback from "./06_memo-useMemo-useCallback/App";
 
 const App = () => {
   return (
@@ -35,7 +36,8 @@ const App = () => {
       {/*<ManageStatewithHooks />*/}
       {/*<ManageStatewithReducerHooks />*/}
       {/*<ShareStatewithContext />*/}
-      <RoutingWithReactRouter />
+      {/*<RoutingWithReactRouter />*/}
+      <MemoUseMemoUseCallback />
     </div>
   );
 };
