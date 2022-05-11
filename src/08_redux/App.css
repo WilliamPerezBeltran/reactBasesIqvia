@@ -1,0 +1,8 @@
+.redux-container {
+  display: flex;
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+.ecommerce {
+  text-align: center;
+}

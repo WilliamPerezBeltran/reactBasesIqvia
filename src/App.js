@@ -18,6 +18,7 @@ import ManageStatewithHooks from "./02_ManageStatewithHooksuseState/App/App";
 import ShareStatewithContext from "./04_ShareStateAcrossReactComponentswithContext//App";
 import RoutingWithReactRouter from "./05_HandleRoutingWithReactRouter/App";
 import MemoUseMemoUseCallback from "./06_memo-useMemo-useCallback/App";
+import ReduxPractice from "./08_redux/App";
 
 const App = () => {
   return (
@@ -37,7 +38,8 @@ const App = () => {
       {/*<ManageStatewithReducerHooks />*/}
       {/*<ShareStatewithContext />*/}
       {/*<RoutingWithReactRouter />*/}
-      <MemoUseMemoUseCallback />
+      {/*<MemoUseMemoUseCallback />*/}
+      <ReduxPractice />
     </div>
   );
 };
